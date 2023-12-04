@@ -1,0 +1,11 @@
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\bin\Release\Data.DataBase.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\bin\Release\Data.DataBase.pdb
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\bin\Release\Entities.EntitiesBussines.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\bin\Release\Entities.EntitiesBussines.pdb
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\obj\Release\Data.DataBase.csproj.AssemblyReference.cache
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\obj\Release\Data.DataBase.csproj.CoreCompileInputs.cache
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\obj\Release\Data.DataBase.csproj.CopyComplete
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\obj\Release\Data.DataBase.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\obj\Release\Data.DataBase.pdb
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\bin\Release\System.Configuration.ConfigurationManager.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Data.DataBase\bin\Release\System.Configuration.ConfigurationManager.xml

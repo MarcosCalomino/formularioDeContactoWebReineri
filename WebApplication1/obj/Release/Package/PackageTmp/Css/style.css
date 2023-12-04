@@ -1,0 +1,290 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+p {
+    color: grey;
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #673AB7;
+    font-weight: normal;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+.form-card {
+    text-align: center;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#msform input, #msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+    #msform input:focus, #msform textarea:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: 1px solid #673AB7;
+        outline-width: 0;
+    }
+
+#msform .action-button {
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+}
+
+    #msform .action-button:hover,
+    #msform .action-button:focus {
+        background-color: #311B92
+    }
+
+#msform .action-button-previous {
+    width: 100px;
+    background: gray;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+    #msform .action-button-previous:hover,
+    #msform .action-button-previous:focus {
+        background-color: #000000
+    }
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    color: lightgrey;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra horizontalmente el elemento ul */
+}
+
+    #progressbar .active {
+        color: #673AB7
+    }
+
+    #progressbar li {
+        list-style-type: none;
+        font-size: 15px;
+        width: 16%; /* Ajusta el ancho según el número de elementos (100% / 6) */
+        float: left;
+        position: absolute;
+        font-weight: 400;
+    }
+
+    #progressbar li {
+        margin: 0;
+        padding: 0;
+    }
+
+
+/*    #progressbar #account:before {
+        font-family: FontAwesome;
+        content: "\f13e"
+    }
+
+    #progressbar #personal:before {
+        font-family: FontAwesome;
+        content: "\f007"
+    }
+
+    #progressbar #payment:before {
+        font-family: FontAwesome;
+        content: "\f030"
+    }
+
+    #progressbar #confirm:before {
+        font-family: FontAwesome;
+        content: "\f00c"
+    }*/
+
+    #progressbar li:before {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        display: block;
+        font-size: 20px;
+        color: #ffffff;
+        background: lightgray;
+        border-radius: 50%;
+        margin: 0 auto 10px auto;
+        padding: 2px
+    }
+
+    #progressbar li:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: lightgray;
+        position: absolute;
+        left: 0;
+        top: 25px;
+        z-index: -1
+    }
+
+    #progressbar li.active:before,
+    #progressbar li.active:after {
+        background: #673AB7
+    }
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #673AB7
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.check-image-row {
+    display: flex;
+    justify-content: space-between; /* Distribuir los elementos uniformemente en la fila */
+    align-items: center; /* Centrar verticalmente los elementos en la fila */
+}
+
+.check-image-container {
+    text-align: center; /* Alinear el contenido al centro dentro de cada contenedor */
+    margin-right: 20px; /* Ajusta el margen entre cada par de checkbox e imagen según tus preferencias */
+}
+
+.next {
+    background-color: #673AB7;
+}
+
+.descripcion{
+   text-align: start;
+}
+
+@media (max-width: 425px) {
+    .fs-title {
+        font-size: 18px;
+        color: #673AB7;
+        margin-bottom: 15px;
+        font-weight: normal;
+        text-align: left
+    }
+
+    .steps {
+        font-size: 18px;
+        color: gray;
+        margin-bottom: 10px;
+        font-weight: normal;
+        text-align: right
+    }
+
+    .img-carga {
+        width: 100%; /* Hacer que la imagen ocupe el ancho completo de .form-card */
+        max-width: 200px; /* Puedes ajustar este valor según tus necesidades */
+        margin: 0 auto; /* Centrar la imagen horizontalmente */
+        display: block; /* Asegurar que ocupa todo el ancho disponible */
+    }
+
+    .form-card {
+        text-align: center;
+    }
+
+    .InfoModal{
+        font-size: 20px;
+    }
+
+    .navbar {
+        text-align: center;
+        align-items: center;
+    }
+
+    .modal{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+

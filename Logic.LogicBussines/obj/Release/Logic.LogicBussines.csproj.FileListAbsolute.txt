@@ -1,0 +1,11 @@
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\bin\Release\Logic.LogicBussines.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\bin\Release\Logic.LogicBussines.pdb
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\bin\Release\Data.DataBase.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\bin\Release\Entities.EntitiesBussines.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\bin\Release\Data.DataBase.pdb
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\bin\Release\Entities.EntitiesBussines.pdb
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\obj\Release\Logic.LogicBussines.csproj.AssemblyReference.cache
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\obj\Release\Logic.LogicBussines.csproj.CoreCompileInputs.cache
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\obj\Release\Logic.LogicBussines.csproj.CopyComplete
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\obj\Release\Logic.LogicBussines.dll
+D:\.Net\Estudio mio\WEB\Formulario de contacto multi pasos web form\Logic.LogicBussines\obj\Release\Logic.LogicBussines.pdb
